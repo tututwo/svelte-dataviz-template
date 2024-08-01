@@ -1,3 +1,8 @@
-<h1 class="text-3xl font-bold underline">
-  Hello world!
-</h1>
+<script>
+  import { Button } from "$lib/components/ui/button";
+</script>
+
+<div class='w-screen h-screen flex items-center justify-center '>
+  <Button variant="outline">I can put anything here</Button>
+</div>
+

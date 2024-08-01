@@ -10,22 +10,26 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.2.0",
-		"@sveltejs/kit": "^2.5.6",
+		"@sveltejs/adapter-auto": "^3.2.2",
+		"@sveltejs/kit": "^2.5.18",
 		"autoprefixer": "^10.4.19",
-		"postcss": "^8.4.38",
-		"svelte": "^4.2.14",
-		"svelte-check": "^3.6.9",
-		"tailwindcss": "^3.4.3",
-		"typescript": "^5.4.5",
-		"vite": "^5.2.8"
+		"postcss": "^8.4.40",
+		"svelte": "^4.2.18",
+		"svelte-check": "^3.8.5",
+		"tailwindcss": "^3.4.7",
+		"typescript": "^5.5.4",
+		"vite": "^5.3.5"
 	},
 	"type": "module",
 	"dependencies": {
 		"@rollup/plugin-dsv": "^3.0.4",
+		"bits-ui": "^0.21.13",
+		"clsx": "^2.1.1",
 		"d3": "^7.9.0",
 		"gsap": "^3.12.5",
-		"layercake": "^8.1.1",
-		"npm-check-updates": "^16.14.18"
+		"layercake": "^8.3.4",
+		"npm-check-updates": "^17.0.0",
+		"tailwind-merge": "^2.4.0",
+		"tailwind-variants": "^0.2.1"
 	}
 }
